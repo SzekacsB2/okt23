@@ -12,11 +12,11 @@ body{
 }
 .min{
     display: inline-block;
-    width: 150px;
+    width: 100px;
     text-align: right;
 }
 .sec{
     display: inline-block;
-    width: 150px;
+    width: 100px;
     text-align: left;
 }
