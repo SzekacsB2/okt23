@@ -19,6 +19,9 @@ function updateTimer() {
     let secString = String(sec).padStart(2, "0");
     document.getElementById("min").textContent = minString;
     document.getElementById("sec").textContent = secString;
+    if (min === 19 && sec === 56) clearInterval(interval);
+    if (min === 20 && sec === 23) clearInterval(interval);
+    if (min === 45 && sec === 0) clearInterval(interval);
 }
 
 document.onkeyup = function (e) {
